@@ -1,7 +1,8 @@
 (function() {
   function initialize() {
     var canvas = document.createElement('canvas')
-    document.body.appendChild(canvas)
+    var container = document.getElementsByClassName('game_container')[0]
+    container.appendChild(canvas)
     var game = new Game(canvas)
     game.start()
   }

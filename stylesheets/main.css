@@ -1,7 +1,12 @@
 body {
-  background-color: grey
+  background-color: #fff;
+  font-family: arial;
+}
+body > .content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 canvas {
   display: block;
-  margin: 0 auto;
 }

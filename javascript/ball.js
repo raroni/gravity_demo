@@ -1,5 +1,5 @@
 (function() {
-  var gravity = new Vector2(0, 0.0004) // per ms
+  var gravity = new Vector2(0, 0.0004)
   var bounciness = 0.8
 
   function Ball(canvas) {
